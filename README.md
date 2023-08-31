@@ -1,4 +1,4 @@
-# READMY
+# README
 
 El archivo *colores.py* contiene una
 tupla con los caracteres de colores

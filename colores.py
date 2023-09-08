@@ -3,8 +3,8 @@
 ###########
 
 colores = {
-    # Color de fault
-    "default": "\033[39;49m",
+    # Letras dafault
+    "de": "\033[39m",
 
     # Letras estandar
     "ne": "\033[30m",
@@ -25,6 +25,9 @@ colores = {
     "moc": "\033[95m",
     "cic": "\033[96m",
     "blc": "\033[97m",
+
+    # Fondo default
+    "fde": "\033[49m",
 
     # Fondo estandar
     "fne": "\033[40m",

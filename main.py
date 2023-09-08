@@ -1,5 +1,8 @@
-# Importa la tupla colores como "cl"
+# Importa el diccionario colores como "cl"
 from colores import colores as cl
 
-# Uso de la tupla "cl"
-print(f"{cl[2]}Hola {cl[3]}mundo{cl[5]}!!!{cl[0]}")
+# Uso del diccionario "cl"
+print(f"{cl['ro']}Hola ", end="")
+print(f"{cl['az']}mundo", end="")
+print(f"{cl['de']}{cl['fve']}!!!", end="")
+print(f"{cl['de']}{cl['fde']}")

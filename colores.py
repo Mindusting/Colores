@@ -2,26 +2,47 @@
 # COLORES #
 ###########
 
-colores = (
-    # Color default
-    "\033[39;49m", #(0) default
+colores = {
+    # Color de fault
+    "default": "\033[39;49m",
 
-    "\033[30m", #(1)  negro
-    "\033[31m", #(2)  rojo
-    "\033[32m", #(3)  verde
-    "\033[33m", #(4)  amarillo
-    "\033[34m", #(5)  azul
-    "\033[35m", #(6)  morado
-    "\033[36m", #(7)  cian
-    "\033[37m", #(8)  blanco
+    # Letras estandar
+    "ne": "\033[30m",
+    "ro": "\033[31m",
+    "ve": "\033[32m",
+    "am": "\033[33m",
+    "az": "\033[34m",
+    "mo": "\033[35m",
+    "ci": "\033[36m",
+    "bl": "\033[37m",
 
-    # Colores claros
-    "\033[90m", #(9)  negro claro
-    "\033[91m", #(10) rojo claro
-    "\033[92m", #(11) verde claro
-    "\033[93m", #(12) amarillo claro
-    "\033[94m", #(13) azul claro
-    "\033[95m", #(14) morado claro
-    "\033[96m", #(15) cian claro
-    "\033[97m"  #(16) blanco claro
-)
+    # Letras claras
+    "nec": "\033[90m",
+    "roc": "\033[91m",
+    "vec": "\033[92m",
+    "amc": "\033[93m",
+    "azc": "\033[94m",
+    "moc": "\033[95m",
+    "cic": "\033[96m",
+    "blc": "\033[97m",
+
+    # Fondo estandar
+    "fne": "\033[40m",
+    "fro": "\033[41m",
+    "fve": "\033[42m",
+    "fam": "\033[43m",
+    "faz": "\033[44m",
+    "fmo": "\033[45m",
+    "fci": "\033[46m",
+    "fbl": "\033[47m",
+
+    # Fondo claros
+    "fnec": "\033[100m",
+    "froc": "\033[101m",
+    "fvec": "\033[102m",
+    "famc": "\033[103m",
+    "fazc": "\033[104m",
+    "fmoc": "\033[105m",
+    "fcic": "\033[106m",
+    "fblc": "\033[107m",
+}
